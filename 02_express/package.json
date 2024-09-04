@@ -1,0 +1,27 @@
+{
+  "name": "tea-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "js",
+    "tea",
+    "manager"
+  ],
+  "author": "adesh rai",
+  "license": "ISC",
+  "description": "a simple manager for different tea",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
