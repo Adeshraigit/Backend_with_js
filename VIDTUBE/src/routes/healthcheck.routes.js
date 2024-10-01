@@ -4,6 +4,6 @@ import { upload } from "../middlewares/multer.middlewares.js";
 
 const router = Router();
 
-router.route("/").get( upload,healthcheck);
+router.route("/").get(healthcheck);
 
-export default { router }
+export default router;
